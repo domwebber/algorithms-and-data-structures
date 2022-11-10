@@ -22,5 +22,5 @@ func solution(n int) int {
 
 func main() {
 	result := solution(1000)
-	fmt.Printf("main(1000) = %d", result)
+	fmt.Printf("main() = %d", result)
 }
