@@ -6,7 +6,7 @@
  *
  * Find the sum of all the multiples of 3 or 5 below 1000.
  */
-function main(n: number): number {
+function main(n: number = 1000): number {
   return [...Array(n).keys()].map((i) => i + 1).reduce(
     (previousValue, currentNumber) => {
       return (currentNumber % 3 === 0|| currentNumber % 5 === 0)
@@ -17,4 +17,4 @@ function main(n: number): number {
   )
 }
 
-console.log(`main(1000) = ${main(1000)}`);
+console.log(`main(1000) = ${main()}`);
