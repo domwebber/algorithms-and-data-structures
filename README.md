@@ -24,3 +24,4 @@ go run main.go
   - [Problem 1 - Multiples of 3 or 5](./project-euler/problem-1/)
   - [Problem 2 - Even Fibonacci Numbers](./project-euler/problem-2/)
   - [Problem 3 - Largest Prime Factor](./project-euler/problem-3/)
+  - [Problem 5 - Smallest Multiple](./project-euler/problem-5/)
