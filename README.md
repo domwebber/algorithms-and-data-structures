@@ -23,3 +23,4 @@ go run main.go
 - Project Euler - Source: [ProjectEuler.net](https://projecteuler.net)
   - [Problem 1 - Multiples of 3 or 5](./project-euler/problem-1/)
   - [Problem 2 - Even Fibonacci Numbers](./project-euler/problem-2/)
+  - [Problem 3 - Largest Prime Factor](./project-euler/problem-3/)
