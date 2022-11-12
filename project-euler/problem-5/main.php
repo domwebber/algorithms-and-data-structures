@@ -8,11 +8,9 @@
  *
  * What is the smallest positive number that is evenly divisible by all of the
  * numbers from 1 to 20?
- *
- * NOTE: This algorithm does not complete quickly.
  */
 
-function main(array $divisors): ?int
+function smallestMultiple(array $divisors): ?int
 {
     $result = null;
     $num = $divisors[count($divisors) - 1] + 1;
@@ -41,5 +39,5 @@ function main(array $divisors): ?int
     return $result;
 }
 
-$result = main(range(0, 20));
-echo "main() = {$result}";
+$result = smallestMultiple(range(0, 20));
+echo "smallestMultiple() = {$result}";

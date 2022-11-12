@@ -14,7 +14,7 @@ function fibonacci(num1: number, num2: number): number {
   return num1 + num2;
 }
 
-function main(maximumTerm: number = 4000000): number {
+function evenFibonacciNumbers(maximumTerm: number = 4000000): number {
   let previousTerm1 = 1;
   let previousTerm2 = 1;
   let total = 0;
@@ -33,4 +33,4 @@ function main(maximumTerm: number = 4000000): number {
   return total;
 }
 
-console.log(`main() = ${main()}`)
+console.log(`evenFibonacciNumbers() = ${evenFibonacciNumbers()}`)

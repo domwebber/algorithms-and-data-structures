@@ -11,7 +11,7 @@ import (
 	"math"
 )
 
-func solution(target int) int {
+func largestPrimeFactor(target int) int {
 	num := target
 	largestFactor := 0
 	counter := 2
@@ -33,6 +33,6 @@ func solution(target int) int {
 }
 
 func main() {
-	result := solution(600851475143)
-	fmt.Printf("main() = %d", result)
+	result := largestPrimeFactor(600851475143)
+	fmt.Printf("largestPrimeFactor() = %d", result)
 }

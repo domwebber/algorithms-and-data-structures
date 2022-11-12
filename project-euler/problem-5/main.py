@@ -10,19 +10,20 @@ numbers from 1 to 20?
 from typing import Optional
 
 
-def all(callable: callable, iterable) -> bool:
+def every(callable: callable, iterable) -> bool:
     for element in iterable:
         if not callable(element):
             return False
     return True
 
 
-def main(divisors: list[int] = range(1, 20)) -> Optional[int]:
+def smallestMultiple(divisors: list[int] = range(1, 20)) -> Optional[int]:
     result = None
     num = divisors[-1] + 1
 
     while not result:
-        isDivisibleByAll = all(lambda divisor: (num % divisor) == 0, divisors)
+        isDivisibleByAll = every(
+            lambda divisor: (num % divisor) == 0, divisors)
         if isDivisibleByAll:
             result = num
             continue
@@ -32,4 +33,4 @@ def main(divisors: list[int] = range(1, 20)) -> Optional[int]:
 
 
 if __name__ == "__main__":
-    print(f"{main() = }")
+    print(f"{smallestMultiple() = }")

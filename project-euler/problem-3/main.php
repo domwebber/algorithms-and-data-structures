@@ -8,7 +8,7 @@
  * What is the largest prime factor of 600851475143?
  */
 
-function main(int $target = 600851475143): int
+function largestPrimeFactor(int $target = 600851475143): int
 {
     $num = $target;
     $largestFactor = 0;
@@ -30,5 +30,5 @@ function main(int $target = 600851475143): int
     return $largestFactor;
 }
 
-$result = main();
-echo "main() = {$result}";
+$result = largestPrimeFactor();
+echo "largestPrimeFactor() = {$result}";

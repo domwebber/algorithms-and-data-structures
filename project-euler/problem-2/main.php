@@ -17,7 +17,7 @@ function fibonacci(int $num1, int $num2): int
     return $num1 + $num2;
 }
 
-function main(int $maximumTerm = 4000000): int
+function evenFibonacciNumbers(int $maximumTerm = 4000000): int
 {
     $previousTerm1 = 1;
     $previousTerm2 = 1;
@@ -37,5 +37,5 @@ function main(int $maximumTerm = 4000000): int
     return $total;
 }
 
-$result = main();
-echo "main() = {$result}";
+$result = evenFibonacciNumbers();
+echo "evenFibonacciNumbers() = {$result}";

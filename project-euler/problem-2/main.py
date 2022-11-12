@@ -14,7 +14,7 @@ def fibonacci(num1: int, num2: int) -> int:
     return num1 + num2
 
 
-def main(maximumTerm: int = 4000000) -> int:
+def evenFibonacciNumbers(maximumTerm: int = 4000000) -> int:
     previousTerm1 = 1
     previousTerm2 = 1
     total = 0
@@ -31,4 +31,4 @@ def main(maximumTerm: int = 4000000) -> int:
 
 
 if __name__ == "__main__":
-    print(f"{main() = }")
+    print(f"{evenFibonacciNumbers() = }")

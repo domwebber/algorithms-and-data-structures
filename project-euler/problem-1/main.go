@@ -8,7 +8,7 @@ package main
 
 import "fmt"
 
-func solution(n int) int {
+func multiplesOf3Or5(n int) int {
 	total := 0
 
 	for i := 1; i < n; i++ {
@@ -21,6 +21,6 @@ func solution(n int) int {
 }
 
 func main() {
-	result := solution(1000)
-	fmt.Printf("main() = %d", result)
+	result := multiplesOf3Or5(1000)
+	fmt.Printf("multiplesOf3Or5() = %d", result)
 }

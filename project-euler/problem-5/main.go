@@ -22,7 +22,7 @@ func every[I any](iterable []I, callable func(element I) bool) bool {
 	return true
 }
 
-func solution(divisors []int) int {
+func smallestMultiple(divisors []int) int {
 	var result *int
 	num := divisors[len(divisors)-1] + 1
 
@@ -48,6 +48,6 @@ func main() {
 		divisors = append(divisors, i)
 	}
 
-	result := solution(divisors)
-	fmt.Printf("main() = %d", result)
+	result := smallestMultiple(divisors)
+	fmt.Printf("smallestMultiple() = %d", result)
 }

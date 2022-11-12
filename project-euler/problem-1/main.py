@@ -7,7 +7,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 """
 
 
-def main(n: int = 1000) -> int:
+def multiplesOf3Or5(n: int = 1000) -> int:
     total = 0
     for i in range(3, n):
         if i % 3 == 0 or i % 5 == 0:
@@ -16,4 +16,4 @@ def main(n: int = 1000) -> int:
 
 
 if __name__ == "__main__":
-    print(f"{main() = }")
+    print(f"{multiplesOf3Or5() = }")

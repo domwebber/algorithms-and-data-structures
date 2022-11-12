@@ -16,7 +16,7 @@ func fibonacci(num1 int, num2 int) int {
 	return num1 + num2
 }
 
-func solution(maximumTerm int) int {
+func evenFibonacciNumbers(maximumTerm int) int {
 	previousTerm1, previousTerm2 := 1, 1
 	total := 0
 
@@ -34,6 +34,6 @@ func solution(maximumTerm int) int {
 }
 
 func main() {
-	result := solution(4000000)
-	fmt.Printf("main() = %d", result)
+	result := evenFibonacciNumbers(4000000)
+	fmt.Printf("evenFibonacciNumbers() = %d", result)
 }

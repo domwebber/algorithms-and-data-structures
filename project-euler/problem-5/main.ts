@@ -8,7 +8,7 @@
  * numbers from 1 to 20?
  */
 
-function solution(divisors: number[]): number | false {
+function smallestMultiple(divisors: number[]): number | false {
   let result: number | false = false;
   let num: number = divisors[divisors.length - 1] + 1;
 
@@ -26,9 +26,9 @@ function solution(divisors: number[]): number | false {
 }
 
 function main() {
-  return solution([
+  return smallestMultiple([
     ...Array(20).keys()
   ].map((i) => i + 1));
 }
 
-console.log(`main() = ${main()}`);
+console.log(`smallestMultiple() = ${main()}`);

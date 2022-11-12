@@ -6,7 +6,7 @@ What is te largest prime factor of 600851475143?
 """
 
 
-def main(target: int = 600851475143) -> int:
+def largestPrimeFactor(target: int = 600851475143) -> int:
     num = target
     largestFactor = 0
     counter = 2
@@ -25,4 +25,4 @@ def main(target: int = 600851475143) -> int:
 
 
 if __name__ == "__main__":
-    print(f"{main() = }")
+    print(f"{largestPrimeFactor() = }")

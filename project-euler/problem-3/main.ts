@@ -6,7 +6,7 @@
  * What is the largest prime factor of 600851475143?
  */
 
-function main(target: number = 600851475143): number {
+function largestPrimeFactor(target: number = 600851475143): number {
   let num = target;
   let largestFactor = 0;
   let counter = 2;
@@ -27,4 +27,4 @@ function main(target: number = 600851475143): number {
   return largestFactor;
 }
 
-console.log(`main() = ${main()}`);
+console.log(`largestPrimeFactor() = ${largestPrimeFactor()}`);
