@@ -2,8 +2,8 @@
 
 - [ ] Set up Docker for repository and test suite running
   - [ ] PHP (PHP, Composer, PHPUnit, PHP_CodeSniffer, Psalm)
-  - [ ] Python (Python, PyTest)
-  - [ ] TypeScript (typescript/ts-node, jest)
+  - [ ] Python (Python, PyTest, PyLint)
+  - [ ] TypeScript (typescript/ts-node, jest, ESLint, Prettier)
   - [ ] Go (Go, <https://github.com/stretchr/testify>)
 - [ ] Project Euler
   - [x] Problem 1
