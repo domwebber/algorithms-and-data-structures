@@ -1,8 +1,4 @@
-# Algorithms And Data Structures
-
-Implementations of various algorithms and data structures in various programming languages.
-
-## Repository Roadmap
+# Repository Roadmap
 
 - [ ] Set up Docker for repository and test suite running
   - [ ] PHP (PHP, Composer, PHPUnit, PHP_CodeSniffer, Psalm)
