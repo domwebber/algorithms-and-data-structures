@@ -29,3 +29,17 @@ go build main.go
   - [Problem 2 - Even Fibonacci Numbers](./project-euler/problem-2/)
   - [Problem 3 - Largest Prime Factor](./project-euler/problem-3/)
   - [Problem 5 - Smallest Multiple](./project-euler/problem-5/)
+
+## Repository Roadmap
+
+- [ ] Set up Docker for repository and test suite running
+  - [ ] PHP (PHP, Composer, PHPUnit, PHP_CodeSniffer, Psalm)
+  - [ ] Python (Python, PyTest)
+  - [ ] TypeScript (typescript/ts-node, jest)
+  - [ ] Go (Go, <https://github.com/stretchr/testify>)
+- [ ] Project Euler
+  - [x] Problem 1
+  - [x] Problem 2
+  - [x] Problem 3
+  - [ ] Problem 4
+  - [x] Problem 5
