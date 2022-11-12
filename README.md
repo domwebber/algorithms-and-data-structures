@@ -43,3 +43,8 @@ go build main.go
   - [x] Problem 3
   - [ ] Problem 4
   - [x] Problem 5
+  - [ ] Problem 6
+- [ ] Quick Sort
+- [ ] Graph Data Structure
+- [ ] Tree Data Structure
+- [ ] Dijkstra's Shortest Path Algorithm
