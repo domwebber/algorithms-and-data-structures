@@ -14,7 +14,7 @@ def all(callable: callable, iterable) -> bool:
     for element in iterable:
         if not callable(element):
             return False
-    return False
+    return True
 
 
 def main(divisors: list[int] = range(1, 20)) -> Optional[int]:
@@ -23,7 +23,7 @@ def main(divisors: list[int] = range(1, 20)) -> Optional[int]:
 
     while not result:
         print(num)
-        isDivisibleByAll = all(lambda divisor: num % divisor == 0, divisors)
+        isDivisibleByAll = all(lambda divisor: (num % divisor) == 0, divisors)
         if isDivisibleByAll:
             result = num
             continue
