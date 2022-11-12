@@ -16,6 +16,10 @@ php main.php
 
 ## Go Scripts
 go run main.go
+
+## Go Scripts (Compiled)
+go build main.go
+./main
 ```
 
 ## Directory
