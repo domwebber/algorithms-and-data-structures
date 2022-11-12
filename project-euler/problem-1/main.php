@@ -9,7 +9,7 @@
  * Find the sums of all the multiples of 3 or 5 below 1000.
  */
 
-function multiplesOf3Or5(int $n): int
+function sumMultiplesOf3Or5(int $n): int
 {
     $total = 0;
 
@@ -22,5 +22,5 @@ function multiplesOf3Or5(int $n): int
     return $total;
 }
 
-$result = multiplesOf3Or5(1000);
-echo "multiplesOf3Or5(1000) = {$result}";
+$result = sumMultiplesOf3Or5(1000);
+echo "sumMultiplesOf3Or5() = {$result}";
