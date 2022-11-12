@@ -1,0 +1,19 @@
+PRINT "Enter the maximum Fibonacci term that you want to calculate the sum up to:"
+INPUT maximumTerm
+
+previousTerm1 ← 1
+previousTerm2 ← 1
+total ← 0
+
+WHILE previousTerm2 < maximumTerm
+    fibonacciPoint ← previousTerm1 + previousTerm2
+
+    previousTerm1 ← previousTerm2
+    previousTerm2 ← fibonacciPoint
+
+    IF (fibonacciPoint % 2) = 0
+        total ← total + fibonacciPoint
+    ENDIF
+ENDWHILE
+
+OUTPUT total

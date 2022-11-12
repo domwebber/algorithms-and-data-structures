@@ -1,0 +1,25 @@
+PRINT "Enter a list of divisors that you want to find the smallest multiple of:"
+INPUT divisors
+
+result ← False
+num ← divisors[-1] + 1
+
+WHILE result = False
+    isDivisibleByAll ← True
+
+    FOREACH divisor IN divisors
+        IF (num % divisor) != 0
+            isDivisibleByAll ← False
+            BREAK
+        ENDIF
+    NEXT
+
+    IF isDivisibleByAll
+        result ← num
+        CONTINUE
+    ENDIF
+
+    num ← num + 1
+ENDWHILE
+
+OUTPUT result
