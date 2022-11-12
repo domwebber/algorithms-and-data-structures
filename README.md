@@ -32,43 +32,4 @@ go build main.go
 
 ## Repository Roadmap
 
-- [ ] Set up Docker for repository and test suite running
-  - [ ] PHP (PHP, Composer, PHPUnit, PHP_CodeSniffer, Psalm)
-  - [ ] Python (Python, PyTest)
-  - [ ] TypeScript (typescript/ts-node, jest)
-  - [ ] Go (Go, <https://github.com/stretchr/testify>)
-- [ ] Project Euler
-  - [x] Problem 1
-    - [x] Go
-    - [x] TypeScript
-    - [x] PHP
-    - [x] Python
-  - [x] Problem 2
-    - [x] Go
-    - [x] TypeScript
-    - [x] PHP
-    - [x] Python
-  - [x] Problem 3
-    - [x] Go
-    - [x] TypeScript
-    - [x] PHP
-    - [x] Python
-  - [ ] Problem 4
-    - [ ] Go
-    - [ ] TypeScript
-    - [ ] PHP
-    - [ ] Python
-  - [x] Problem 5
-    - [x] Go
-    - [x] TypeScript
-    - [x] PHP
-    - [x] Python
-  - [ ] Problem 6
-    - [ ] Go
-    - [ ] TypeScript
-    - [ ] PHP
-    - [ ] Python
-- [ ] Quick Sort
-- [ ] Graph Data Structure
-- [ ] Tree Data Structure
-- [ ] Dijkstra's Shortest Path Algorithm
+See [TODO.md](./TODO.md)

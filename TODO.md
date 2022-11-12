@@ -1,0 +1,62 @@
+# Algorithms And Data Structures
+
+Implementations of various algorithms and data structures in various programming languages.
+
+## Repository Roadmap
+
+- [ ] Set up Docker for repository and test suite running
+  - [ ] PHP (PHP, Composer, PHPUnit, PHP_CodeSniffer, Psalm)
+  - [ ] Python (Python, PyTest)
+  - [ ] TypeScript (typescript/ts-node, jest)
+  - [ ] Go (Go, <https://github.com/stretchr/testify>)
+- [ ] Project Euler
+  - [x] Problem 1
+    - [x] Go
+    - [x] TypeScript
+    - [x] PHP
+    - [x] Python
+  - [x] Problem 2
+    - [x] Go
+    - [x] TypeScript
+    - [x] PHP
+    - [x] Python
+  - [x] Problem 3
+    - [x] Go
+    - [x] TypeScript
+    - [x] PHP
+    - [x] Python
+  - [ ] Problem 4
+    - [ ] Go
+    - [ ] TypeScript
+    - [ ] PHP
+    - [ ] Python
+  - [x] Problem 5
+    - [x] Go
+    - [x] TypeScript
+    - [x] PHP
+    - [x] Python
+  - [ ] Problem 6
+    - [ ] Go
+    - [ ] TypeScript
+    - [ ] PHP
+    - [ ] Python
+- [ ] Quick Sort
+  - [ ] Go
+  - [ ] TypeScript
+  - [ ] PHP
+  - [ ] Python
+- [ ] Graph Data Structure
+  - [ ] Go
+  - [ ] TypeScript
+  - [ ] PHP
+  - [ ] Python
+- [ ] Tree Data Structure
+  - [ ] Go
+  - [ ] TypeScript
+  - [ ] PHP
+  - [ ] Python
+- [ ] Dijkstra's Shortest Path Algorithm
+  - [ ] Go
+  - [ ] TypeScript
+  - [ ] PHP
+  - [ ] Python
