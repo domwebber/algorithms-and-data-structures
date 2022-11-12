@@ -1,3 +1,12 @@
+# Project Euler Problem 3 - Largest Prime Factor
+
+> The prime factors of 13195 are 5, 7, 13 and 29.
+>
+> What is the largest prime factor of 600851475143?
+
+**Pseudocode:**
+
+```txt
 PRINT "Enter the number you want to find the largest prime factor of:"
 INPUT target
 
@@ -19,3 +28,4 @@ IF num > largestFactor
 ENDIF
 
 OUTPUT largestFactor
+```
