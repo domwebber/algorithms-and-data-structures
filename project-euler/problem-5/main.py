@@ -28,6 +28,8 @@ def main(divisors: list[int] = range(1, 20)) -> Optional[int]:
             continue
         num += 1
 
+    return result
+
 
 if __name__ == "__main__":
     print(f"{main() = }")
