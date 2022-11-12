@@ -22,7 +22,6 @@ def main(divisors: list[int] = range(1, 20)) -> Optional[int]:
     num = divisors[-1] + 1
 
     while not result:
-        print(num)
         isDivisibleByAll = all(lambda divisor: (num % divisor) == 0, divisors)
         if isDivisibleByAll:
             result = num
