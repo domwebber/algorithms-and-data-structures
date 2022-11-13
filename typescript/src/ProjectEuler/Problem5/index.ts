@@ -25,10 +25,6 @@ function smallestMultiple(divisors: number[]): number | false {
   return result;
 }
 
-function main() {
-  return smallestMultiple([
-    ...Array(20).keys()
-  ].map((i) => i + 1));
+export default function main() {
+  return smallestMultiple([...Array(20).keys()].map((i) => i + 1));
 }
-
-console.log(`smallestMultiple() = ${main()}`);
