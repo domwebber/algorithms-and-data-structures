@@ -33,3 +33,27 @@ go build main.go
 ## Repository Roadmap
 
 See [TODO.md](./TODO.md)
+
+## Tooling
+
+- PHP (+ Composer)
+  - PHPStan
+  - Psalm
+  - PHP CodeSniffer
+  - PHPUnit
+- Python (+ Pipenv)
+  - MyPy
+  - PyTest
+  - PyTest Cov (Coverage)
+- TypeScript
+  - TypeScript (tsc typecheck)
+  - ESLint
+  - Jest
+  - Babel
+  - npm-run-all
+  - Prettier
+  - @typescript-eslint
+- Go
+  - Go Vet
+  - Staticcheck
+  - stretchr/testify
