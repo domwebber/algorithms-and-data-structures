@@ -1,9 +1,9 @@
 <?php
 
-namespace Domwebber\AlgorithmsAndDataStructures\Tests\ProjectEuler;
+namespace DomWebber\AlgorithmsAndDataStructures\Tests\ProjectEuler;
 
 use PHPUnit\Framework\TestCase;
-use Domwebber\AlgorithmsAndDataStructures\ProjectEuler\Problem5;
+use DomWebber\AlgorithmsAndDataStructures\ProjectEuler\Problem5;
 
 final class Problem5Test extends TestCase
 {

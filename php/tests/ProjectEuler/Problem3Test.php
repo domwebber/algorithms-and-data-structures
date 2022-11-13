@@ -1,6 +1,6 @@
 <?php
 
-namespace Domwebber\AlgorithmsAndDataStructures\Tests\ProjectEuler;
+namespace DomWebber\AlgorithmsAndDataStructures\Tests\ProjectEuler;
 
 use PHPUnit\Framework\TestCase;
 use DomWebber\AlgorithmsAndDataStructures\ProjectEuler\Problem3;

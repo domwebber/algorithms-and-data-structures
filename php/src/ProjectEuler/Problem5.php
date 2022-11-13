@@ -14,6 +14,9 @@ namespace DomWebber\AlgorithmsAndDataStructures\ProjectEuler;
 
 class Problem5
 {
+    /**
+     * @var array<int>
+     */
     protected array $divisors;
 
     public function __construct()

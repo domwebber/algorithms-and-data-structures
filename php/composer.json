@@ -25,12 +25,12 @@
     "license": "apache-2.0",
     "autoload": {
         "psr-4": {
-            "Domwebber\\AlgorithmsAndDataStructures\\": "php/src/"
+            "DomWebber\\AlgorithmsAndDataStructures\\": "php/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Domwebber\\AlgorithmsAndDataStructures\\": "php/tests/"
+            "DomWebber\\AlgorithmsAndDataStructures\\": "php/tests/"
         }
     },
     "authors": [

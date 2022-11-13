@@ -12,8 +12,7 @@ namespace DomWebber\AlgorithmsAndDataStructures\ProjectEuler;
 
 class Problem3
 {
-
-    function largestPrimeFactor(int $target = 600851475143): int
+    public function largestPrimeFactor(int $target = 600851475143): int
     {
         $num = $target;
         $largestFactor = 0;
@@ -32,6 +31,6 @@ class Problem3
             $largestFactor = $num;
         }
 
-        return $largestFactor;
+        return (int) $largestFactor;
     }
 }

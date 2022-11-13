@@ -27,7 +27,7 @@ class Problem2
         $total = 0;
 
         while ($previousTerm2 < $maximumTerm) {
-            $fibonacciPoint = fibonacci($previousTerm1, $previousTerm2);
+            $fibonacciPoint = $this->fibonacci($previousTerm1, $previousTerm2);
 
             $previousTerm1 = $previousTerm2;
             $previousTerm2 = $fibonacciPoint;
