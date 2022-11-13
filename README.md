@@ -6,15 +6,19 @@ This repository stands as a resource for various implementations of algorithms a
 
 ```bash
 # Python Scripts
+pipenv run lint
 pipenv run test
 
 # JavaScript Scripts
+npm run lint
 npm run test
 
 ## PHP Scripts
+composer run lint
 composer run test
 
 ## Go Scripts
+./go/scripts/lint.sh
 ./go/scripts/test.sh
 ```
 
