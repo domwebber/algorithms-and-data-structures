@@ -34,26 +34,10 @@ go build main.go
 
 See [TODO.md](./TODO.md)
 
-## Tooling
+## License
 
-- PHP (+ Composer)
-  - PHPStan
-  - Psalm
-  - PHP CodeSniffer
-  - PHPUnit
-- Python (+ Pipenv)
-  - MyPy
-  - PyTest
-  - PyTest Cov (Coverage)
-- TypeScript
-  - TypeScript (tsc typecheck)
-  - ESLint
-  - Jest
-  - Babel
-  - npm-run-all
-  - Prettier
-  - @typescript-eslint
-- Go
-  - Go Vet
-  - Staticcheck
-  - stretchr/testify
+Apache 2.0 - See [LICENSE.md](./LICENSE.md)
+
+See [CREDITS.md](./CREDITS.md).
+
+&copy; 2022 Dom Webber
