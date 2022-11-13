@@ -36,8 +36,6 @@ See [TODO.md](./TODO.md)
 
 ## License
 
-Apache 2.0 - See [LICENSE.md](./LICENSE.md)
-
-See [CREDITS.md](./CREDITS.md).
+Apache 2.0 - See [LICENSE.md](./LICENSE.md) and [CREDITS.md](./CREDITS.md).
 
 &copy; 2022 Dom Webber
