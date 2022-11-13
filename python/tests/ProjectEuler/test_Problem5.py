@@ -1,4 +1,4 @@
-from ....src.ProjectEuler.Problem5.main import smallestMultiple
+from ...src.ProjectEuler.Problem5 import smallestMultiple
 
 
 def test_reaches_answer():

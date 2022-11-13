@@ -1,3 +1,5 @@
+package Problem5
+
 // Project Euler Problem 5 - Smallest Multiple.
 //
 // 2520 is the smallest number that can be divided by each of the numbers from
@@ -5,12 +7,6 @@
 //
 // What is the smallest positive number that is evenly divisible by all of the
 // numbers from 1 to 20?
-
-package main
-
-import (
-	"fmt"
-)
 
 func every[I any](iterable []I, callable func(element I) bool) bool {
 	for _, element := range iterable {
@@ -40,14 +36,4 @@ func smallestMultiple(divisors []int) int {
 	}
 
 	return *result
-}
-
-func main() {
-	var divisors []int
-	for i := 1; i <= 20; i++ {
-		divisors = append(divisors, i)
-	}
-
-	result := smallestMultiple(divisors)
-	fmt.Printf("smallestMultiple() = %d", result)
 }

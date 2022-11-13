@@ -1,4 +1,4 @@
-from ....src.ProjectEuler.Problem2.main import evenFibonacciNumbers
+from ...src.ProjectEuler.Problem2 import evenFibonacciNumbers
 
 
 def test_reaches_answer():

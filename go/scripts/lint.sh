@@ -8,7 +8,7 @@ labels=(
 )
 cmds=(
     'go vet ./...'
-    'staticcheck ./...'
+    'go run honnef.co/go/tools/cmd/staticcheck ./...'
 )
 
 for i in "${!cmds[@]}"; do

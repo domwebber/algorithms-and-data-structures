@@ -1,4 +1,4 @@
-from ....src.ProjectEuler.Problem1.main import sumMultiplesOf3Or5
+from ...src.ProjectEuler.Problem1 import sumMultiplesOf3Or5
 
 
 def test_reaches_answer():
