@@ -1,5 +1,7 @@
 # Credits and Third-Party Licensing
 
+- CSpell (<https://cspell.org/>)
+
 - PHP (<https://www.php.net/>)
 - PHPStan (<https://phpstan.org/>)
 - Psalm (<https://psalm.dev/>)
