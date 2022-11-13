@@ -1,10 +1,10 @@
 # Repository Roadmap
 
 - [ ] Set up Docker for repository and test suite running
-  - [ ] PHP (PHP, Composer, PHPUnit, PHP_CodeSniffer, Psalm)
-  - [ ] Python (Python, PyTest, PyLint)
-  - [ ] TypeScript (typescript/ts-node, jest, ESLint, Prettier)
-  - [ ] Go (Go, <https://github.com/stretchr/testify>)
+  - [ ] PHP (PHP, Composer, PHPUnit, PHP_CodeSniffer, Psalm, XDebug, OPCache)
+  - [ ] Python (Python, Pipenv, PyTest, PyLint)
+  - [ ] TypeScript (typescript, Babel, jest, ESLint, Prettier)
+  - [ ] Go (Go, StaticCheck, <https://github.com/stretchr/testify>)
 - [ ] Project Euler
   - [x] Problem 1
     - [x] Go

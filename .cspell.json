@@ -1,0 +1,46 @@
+{
+    "version": "0.2",
+    "language": "en-gb",
+    "dictionaries": [
+        "softwareTerms",
+        "typescript",
+        "node",
+        "php",
+        "python",
+        "go",
+        "bash",
+        "filetypes",
+        "npm"
+    ],
+    "words": [
+        "stretchr",
+        "codepaths",
+        "typecheck",
+        "domwebber",
+        "unmocked",
+        "lcov",
+        "testsuites",
+        "phpunit",
+        "ruleset",
+        "phpstan",
+        "codesniffer",
+        "squizlabs",
+        "phpunit",
+        "bytecaching",
+        "testdox",
+        "phpcs",
+        "cmds",
+        "staticcheck",
+        "govet",
+        "gotest"
+    ],
+    "ignorePaths": [
+        "**/node_modules/**",
+        "**/vendor/**",
+        "**/coverage/**",
+        "**/.phpunit*.cache",
+        "**/go.sum",
+        "**/go.mod",
+        "**/*.lock"
+    ]
+}

@@ -9,7 +9,7 @@ This repository stands as a resource for various implementations of algorithms a
 python main.py
 
 # JavaScript Scripts
-npx ts-node main.ts
+npx jest -i test.ts
 
 ## PHP Scripts
 php main.php
