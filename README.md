@@ -6,20 +6,16 @@ This repository stands as a resource for various implementations of algorithms a
 
 ```bash
 # Python Scripts
-python main.py
+pipenv run test
 
 # JavaScript Scripts
-npx jest -i test.ts
+npm run test
 
 ## PHP Scripts
-php main.php
+composer run test
 
 ## Go Scripts
-go run main.go
-
-## Go Scripts (Compiled)
-go build main.go
-./main
+./go/scripts/test.sh
 ```
 
 ## Directory
