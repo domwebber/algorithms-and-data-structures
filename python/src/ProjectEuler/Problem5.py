@@ -7,17 +7,17 @@ What is the smallest positive number that is evenly divisible by all of the
 numbers from 1 to 20?
 """
 
-from typing import Optional
+from typing import Optional, Callable
 
 
-def every(callable: callable, iterable) -> bool:
+def every(callable: Callable, iterable) -> bool:
     for element in iterable:
         if not callable(element):
             return False
     return True
 
 
-def smallestMultiple(divisors: list[int] = range(1, 20)) -> Optional[int]:
+def smallestMultiple(divisors: list[int] = [*range(1, 20)]) -> Optional[int]:
     result = None
     num = divisors[-1] + 1
 
