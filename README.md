@@ -5,6 +5,10 @@ This repository stands as a resource for various implementations of algorithms a
 ## Usage
 
 ```bash
+# All
+./scripts/lint.sh
+./scripts/test.sh
+
 # Python Scripts
 pipenv run lint
 pipenv run test
