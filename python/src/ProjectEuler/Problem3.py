@@ -13,7 +13,7 @@ def largestPrimeFactor(target: int = 600851475143) -> int:
 
     while counter ** 2 <= num:
         if (num % counter) == 0:
-            num /= counter
+            num //= counter
             continue
 
         counter += 1
