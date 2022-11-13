@@ -3,22 +3,22 @@
 echo ""
 
 labels=(
-    'test:go'
-    'test:php'
-    'test:python'
     'test:typescript'
+    'test:python'
+    'test:php'
+    'test:go'
 )
 dirs=(
-    'go'
-    'php'
-    'python'
     'typescript'
+    'python'
+    'php'
+    'go'
 )
 cmds=(
-    './scripts/test.sh'
-    'composer run test'
-    'pipenv run test'
     'npm run test'
+    'pipenv run test'
+    'composer run test'
+    './scripts/test.sh'
 )
 
 for i in "${!cmds[@]}"; do

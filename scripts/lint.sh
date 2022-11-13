@@ -3,22 +3,22 @@
 echo ""
 
 labels=(
-    'lint:go'
-    'lint:php'
-    'lint:python'
     'lint:typescript'
+    'lint:python'
+    'lint:php'
+    'lint:go'
 )
 dirs=(
-    'go'
-    'php'
-    'python'
     'typescript'
+    'python'
+    'php'
+    'go'
 )
 cmds=(
-    './scripts/lint.sh'
-    'composer run lint'
-    'pipenv run lint'
     'npm run lint'
+    'pipenv run lint'
+    'composer run lint'
+    './scripts/lint.sh'
 )
 
 for i in "${!cmds[@]}"; do
