@@ -2,7 +2,8 @@
 
 Various implementations of algorithms and data structures in a number of programming languages.
 
-> **This repository contains algorithms and data structures implemented by myself**. See <https://github.com/TheAlgorithms/> if you want community-built algorithms and data structures.
+> **This repository contains algorithms and data structures implemented by myself**. \
+> See <https://github.com/TheAlgorithms/> if you want community-built algorithms and data structures.
 
 ## Usage
 
