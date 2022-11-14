@@ -27,6 +27,8 @@ for i in "${!cmds[@]}"; do
     echo ""
 
     cd "${dirs[$i]}"
+    echo "$PWD"
+
     ${cmds[$i]}
 
     EXITCODE=$?
