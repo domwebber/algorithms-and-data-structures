@@ -13,7 +13,8 @@
         ]
     },
     "suggest": {
-        "ext-zend-opcache": "Allows bytecaching for performance boost"
+        "ext-zend-opcache": "Allows bytecaching for performance boost",
+        "ext-zend-xdebug": "Allows coverage testing"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
@@ -25,12 +26,12 @@
     "license": "apache-2.0",
     "autoload": {
         "psr-4": {
-            "DomWebber\\AlgorithmsAndDataStructures\\": "php/src/"
+            "DomWebber\\AlgorithmsAndDataStructures\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DomWebber\\AlgorithmsAndDataStructures\\": "php/tests/"
+            "DomWebber\\AlgorithmsAndDataStructures\\Tests\\": "tests/"
         }
     },
     "authors": [
