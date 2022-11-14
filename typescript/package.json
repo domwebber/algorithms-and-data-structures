@@ -3,7 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "description": "Implementations of various algorithms and data structures in various programming languages",
-  "main": "null",
   "scripts": {
     "lint": "npm-run-all lint:*",
     "lint:typecheck": "tsc --noEmit",
