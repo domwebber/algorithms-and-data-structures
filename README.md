@@ -32,10 +32,26 @@ composer run test
 ## Directory
 
 - Project Euler - Source: [ProjectEuler.net](https://projecteuler.net)
-  - [Problem 1 - Multiples of 3 or 5](./project-euler/problem-1/)
-  - [Problem 2 - Even Fibonacci Numbers](./project-euler/problem-2/)
-  - [Problem 3 - Largest Prime Factor](./project-euler/problem-3/)
-  - [Problem 5 - Smallest Multiple](./project-euler/problem-5/)
+  - Problem 1 - Multiples of 3 or 5:
+    [TypeScript](./typescript/src/ProjectEuler/Problem1/index.ts);
+    [Python](./python/src/ProjectEuler/Problem1.py);
+    [PHP](./php/src/ProjectEuler/Problem1.php);
+    [Go](./go/internal/ProjectEuler/Problem1/Problem1.go);
+  - Problem 2 - Even Fibonacci Numbers
+    [TypeScript](./typescript/src/ProjectEuler/Problem2/index.ts);
+    [Python](./python/src/ProjectEuler/Problem2.py);
+    [PHP](./php/src/ProjectEuler/Problem2.php);
+    [Go](./go/internal/ProjectEuler/Problem2/Problem2.go);
+  - Problem 3 - Largest Prime Factor
+    [TypeScript](./typescript/src/ProjectEuler/Problem3/index.ts);
+    [Python](./python/src/ProjectEuler/Problem3.py);
+    [PHP](./php/src/ProjectEuler/Problem3.php);
+    [Go](./go/internal/ProjectEuler/Problem3/Problem3.go);
+  - Problem 5 - Smallest Multiple
+    [TypeScript](./typescript/src/ProjectEuler/Problem5/index.ts);
+    [Python](./python/src/ProjectEuler/Problem5.py);
+    [PHP](./php/src/ProjectEuler/Problem5.php);
+    [Go](./go/internal/ProjectEuler/Problem5/Problem5.go);
 
 ## Repository Roadmap
 
