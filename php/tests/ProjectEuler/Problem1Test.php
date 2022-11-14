@@ -2,6 +2,8 @@
 
 namespace DomWebber\AlgorithmsAndDataStructures\Tests\ProjectEuler;
 
+require __DIR__ . "/../../vendor/autoload.php";
+
 use PHPUnit\Framework\TestCase;
 use DomWebber\AlgorithmsAndDataStructures\ProjectEuler\Problem1;
 
