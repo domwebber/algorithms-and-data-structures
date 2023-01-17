@@ -50,8 +50,8 @@ composer run test
   - Problem 5 - Smallest Multiple
     [TypeScript](./typescript/src/ProjectEuler/Problem5/index.ts);
     [Python](./python/src/ProjectEuler/Problem5.py);
-    [PHP](./php/src/ProjectEuler/Problem5.php);
-    [Go](./go/internal/ProjectEuler/Problem5/Problem5.go);
+    [PHP](./php/src/ProjectEuler/Problem5.php) (slow);
+    [Go](./go/internal/ProjectEuler/Problem5/Problem5.go) (slow);
 
 ## Repository Roadmap
 
