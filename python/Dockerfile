@@ -1,4 +1,4 @@
-FROM python:3.10-slim as base
+FROM python:3.12.0b1-slim as base
 
 RUN pip install pipenv
 RUN pip install pytest
