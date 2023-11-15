@@ -1,4 +1,4 @@
-FROM php:cli-alpine as vendor
+FROM php:8.3.0RC6-cli-alpine3.18 as vendor
 
 WORKDIR /usr/src/app
 
